@@ -9,6 +9,11 @@ In this project we will use the PYNQ Z2 development board and Tensil’s open-so
 
 ![image](https://github.com/user-attachments/assets/d1162f5e-25d7-411e-bd9c-4eada05fab35)
 
+## Useful Links
+* Pynqz2 Board files [https://github.com/xupsh/pynq-supported-board-file]
+* Pynq board setup instructions [https://pynq.readthedocs.io/en/v2.3/getting_started.html]
+* Tensil AI [https://www.tensil.ai/]
+
 ## Step 1
 First, we need to get the Tensil toolchain. The easiest way is to pull the Tensil docker container from Docker Hub. The following command will pull the image and then run the container.
 ```
@@ -228,7 +233,7 @@ Result: horse (idx = 7)
 Actual: horse (idx = 7)
 ```
 ## Summary 
-In this project we used Tensil to show how to run machine learning (ML) models on FPGA. We went through a number of steps to get here, including installing Tensil, choosing an architecture, generating an RTL design, synthesizing the desing, compiling the ML model and finally executing the model using PYNQ.
+In this project we used Tensil to show how to run machine learning (ML) models on FPGA. We went through a number of steps to get here, including installing Tensil, choosing an architecture, generating an RTL design, synthesizing the desing, compiling the ML model and finally executing the model using PYNQ Z2.
 
 
 
