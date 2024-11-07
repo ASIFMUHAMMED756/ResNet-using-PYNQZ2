@@ -96,6 +96,8 @@ The resulting compiled files are listed in the ARTIFACTS table. The manifest (tm
 
 Execute using PYNQ.Now it’s time to put everything together on our development board. For this, we first need to set up the PYNQ environment. This process starts with downloading the SD card image for our development board. There’s the detailed instruction for setting board connectivity on the PYNQ documentation website. You should be able to open Jupyter notebooks and run some examples.
 
+`password:xilinx`
+
 Now that PYNQ is up and running, the next step is to scp the Tensil driver for PYNQ. Start by cloning the Tensil GitHub repository to your work station and then copy `drivers/tcu_pynq` to `/home/xilinx/tcu_pynq `onto your board.
 ```
 git clone git@github.com:tensil-ai/tensil.git
