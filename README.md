@@ -1,6 +1,6 @@
 # ResNet 20-using-PYNQZ2
 
-### Intelligent Integrated Circuits and Systems Lab, IIIT Kottayam ![image](https://github.com/user-attachments/assets/187d4902-a88d-4792-b803-dd6b7572ce7f)
+### Intelligent Integrated Circuits and Systems Lab, IIIT Kottayam 
 
 
 In this project we will use the PYNQ Z2 development board and Tensil’s open-source inference accelerator to show how to run machine learning (ML) models on FPGA. We will be using ResNet-20 trained on the CIFAR dataset. These steps should work for any supported ML model – currently, all the convolutional neural networks are supported.
