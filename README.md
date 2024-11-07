@@ -36,11 +36,14 @@ After this step three verilog files will be generated.
 ## Step 4
 
 In this step we need to open Xilinx Vivado.Before you create new Vivado project you will need to download PYNQ Z1 board definition files from here. Unpack and place them in `/tools/Xilinx/Vivado/2021.2/data/boards/board_files/`.
-![image](https://github.com/user-attachments/assets/c5e9fd1f-ee0f-40ed-9386-916025c7aec4.
+
+Add the verilog files which we got while generating RTL in step 3.
+
+
+![image](https://github.com/user-attachments/assets/ec1abb18-ccb6-4f97-a82b-d2cfe5882bfe)
 
 Under IP integrator click `Create Block Design`.
 
-![image](https://github.com/user-attachments/assets/6907a1f5-9f11-4985-ac44-25254485483e)
 
 Next, click the plus + button in the Block Diagram toolbar (upper left) and select “ZYNQ7 Processing System” (you may need to use the search box). Do the same for “Processor System Reset”. The Zynq block represents the “hard” part of the Xilinx platform, which includes ARM processors, DDR interfaces, and much more. The Processor System Reset is a utility box that provides the design with correctly synchronized reset signals.
 
