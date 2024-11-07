@@ -1,1 +1,1 @@
-# ResNet-using-PYNQZ2
+# ResNet 20-using-PYNQZ2
