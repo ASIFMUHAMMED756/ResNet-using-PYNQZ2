@@ -189,7 +189,9 @@ label_idx, label = get_label(labels, label_names, n)
 show_img(data, n)
 ```
 You should see the image.
+
 ![image](https://github.com/user-attachments/assets/46db11bb-adbb-47a2-8b7b-37f50bfabb6e)
+
 Next, load the tmodel manifest for the model into the driver. The manifest tells the driver where to find the other two binary files (program and weights data).
 ```
 tcu.load_model('/home/xilinx/resnet20v2_cifar_onnx_pynqz1.tmodel')
